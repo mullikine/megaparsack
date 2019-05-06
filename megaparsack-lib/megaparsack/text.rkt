@@ -84,6 +84,8 @@
 
 ;;;
 ;; char and string utility functions
+;; Simply importing as follows does not get me the definition of char=/?
+;; (require megaparsack megaparsack/text)
 (define (char=/? c k)
   (not (char=? c k)))
 
